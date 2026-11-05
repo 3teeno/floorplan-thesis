@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv
+floorplan-env
+
+# Data: scraped listings contain addresses and the plan images belong to the listing sites,
+# so none of it is published. CubiCasa5K is downloaded with download_cubicasa5k.py.
+data
+output
+
+# Trained weights (165 MB, over GitHub's 100 MB file limit) -- attach to a GitHub release instead
+*.pt
+
+# OS / editor
+.DS_Store
+.claude/
+*.log

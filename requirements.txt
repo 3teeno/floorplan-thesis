@@ -1,0 +1,26 @@
+# Python 3.13. Versions as used for the thesis runs (October 2026).
+torch==2.12.1
+torchvision==0.27.1
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+opencv-python-headless==4.13.0.92
+scikit-image==0.26.0
+numpy==2.3.5
+scipy==1.18.0
+pandas==3.0.3
+ezdxf==1.4.4
+pytesseract==0.3.13      # also needs the tesseract binary (macOS: brew install tesseract)
+matplotlib==3.11.0
+
+# data collection
+requests==2.32.5
+beautifulsoup4==4.15.0
+lxml==6.1.1
+pillow==12.3.0
+openpyxl==3.1.5
+
+# detector training (CubiCasa5K loader in floortrans/)
+tqdm==4.68.4
+lmdb==2.3.0
+shapely==2.1.2
+svgpathtools==1.7.2
