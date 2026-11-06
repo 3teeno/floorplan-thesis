@@ -223,7 +223,7 @@ ROOM_LABEL_MAX_DIST_FRAC = 0.20  # match a room to an OCR'd label only within th
 ROOM_OUTLINE_EPSILON_PX = 3.0    # RDP simplification tolerance for each room's drawn boundary
 ROOM_RECOVERY_MIN_SOLIDITY = 0.70  # a recovered leak-fragment below this (area / its own convex-hull
                                    # area) is a thin bent margin remnant, not a real room's blocky core
-AREA_MIN_DISPLAY_M2 = 4.0  # don't draw an outline/label for a room calibrated smaller than this --
+AREA_MIN_DISPLAY_M2 = 2.0  # don't draw an outline/label for a room calibrated smaller than this --
                            # still counted in the calibration sum (it's real floor area), just not
                            # drawn (a closet-sized room clutters the plan more than it informs)
 
